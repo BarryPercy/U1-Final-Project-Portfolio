@@ -64,6 +64,9 @@ body{
     font-weight: bold;
     font-size: 40px;
 }
+.navbar .currentpage{
+    text-shadow: 2px 2px 4px #000000;
+}
 .main-body-overlay{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6530987394957983) 37%, rgba(0,0,0,0) 100%);z-index: 2;
@@ -133,22 +136,17 @@ body{
 }
 .description-text:hover{
     font-size:120px;
+    transition:0.2s;
 }
 .description-text-two{
     cursor: pointer;
     text-decoration: none;
     color: white;
 }
-.description-text-two:hover{
-    font-size:35px;
-}
 .description-text-three{
     cursor: pointer;
     text-decoration: none;
     color: white;
-}
-.description-text-three:hover{
-    font-size:35px;
 }
 .linkedin{
     position: absolute;
@@ -167,10 +165,12 @@ body{
     display:none;
     color:grey;
 }
+.hidden-arrow{
+    display:none;
+}
 .description-text:hover + .hidden-text{
     display: inline;
 }
-
 .hidden-text-two{
     display:none;
     color:grey;
@@ -197,6 +197,9 @@ body{
     transform:translateX(-400px) translateY(-350px);
     transition:0.5s;
 }
+.hi-text:hover + .hidden-arrow{
+    display:inline;
+}
 .description{
     font-size:20px;
     display:none;
@@ -208,7 +211,6 @@ body{
 .center-vertically{
     display: flex;
     align-items: center;
-    
 }
 .job{
     border-style: solid;
