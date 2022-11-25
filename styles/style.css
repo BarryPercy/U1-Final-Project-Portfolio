@@ -22,6 +22,7 @@ body{
     padding-left: 70px;    
     font-size: 35px;
     overflow: hidden;
+    text-shadow: 2px 2px 4px #000000;
 }
 .abovenavbar img{
     padding: 0;
@@ -31,6 +32,7 @@ body{
     width:200px;
     transform: translatey(200px);
 }
+
 .abovenavbar:hover img{
     transform:translatey(-30px);
     transition: 0.3s;
@@ -110,8 +112,18 @@ body{
     color:white;
     height:100%;
 }
+.projects-main-body{
+    margin:60px;
+    padding-top: 250px;
+    position:relative;
+    color:white;
+    height:100%;
+}
 .hi-text{
     font-size: 70px;
+}
+.hi-text:hover{
+    font-size:80px;
 }
 .description-text{
     font-size:100px;
@@ -119,22 +131,41 @@ body{
     text-decoration: none;
     color: white;
 }
+.description-text:hover{
+    font-size:120px;
+}
 .description-text-two{
     cursor: pointer;
     text-decoration: none;
     color: white;
+}
+.description-text-two:hover{
+    font-size:35px;
 }
 .description-text-three{
     cursor: pointer;
     text-decoration: none;
     color: white;
 }
+.description-text-three:hover{
+    font-size:35px;
+}
 .linkedin{
     position: absolute;
+    right:100px;
+    bottom:150px;
     margin:auto;
+    width:500px;
+    background-color: white;
+    border-radius: 15px;
+}
+.linkedin:hover{
+    width:550px;
+    transition:0.3s;
 }
 .hidden-text{
     display:none;
+    color:grey;
 }
 .description-text:hover + .hidden-text{
     display: inline;
@@ -142,12 +173,14 @@ body{
 
 .hidden-text-two{
     display:none;
+    color:grey;
 }
 .description-text-two:hover + .hidden-text-two{
     display: inline;
 }
 .hidden-text-three{
     display:none;
+    color:grey;
 }
 .description-text-three:hover + .hidden-text-three{
     display: inline;
@@ -162,7 +195,7 @@ body{
 }
 .hi-text:hover .barry-pose{
     transform:translateX(-400px) translateY(-350px);
-    transition:1.0s;
+    transition:0.5s;
 }
 .description{
     font-size:20px;
@@ -175,9 +208,7 @@ body{
 .center-vertically{
     display: flex;
     align-items: center;
-}
-.job:hover .imperva-description{
-    display: block;
+    
 }
 .job{
     border-style: solid;
@@ -191,6 +222,9 @@ body{
 }
 .job:hover .description{
     display: block;
+}
+.job:hover .center-vertically{
+    text-shadow:  4px 3px 3px #1A242E;
 }
 .synopsys-icon{
     padding:10px;
@@ -210,4 +244,19 @@ body{
 }
 .computer-icon{
     width:50px;
+}
+.github-logo{
+    width:500px;
+}
+.github-logo:hover{
+    width:550px;
+    transition:0.3s;
+}
+.dublin-collective{
+    padding-top:50px;
+    width:500px;
+}
+.dublin-collective:hover{
+    width:550px;
+    transition:0.3s;
 }
