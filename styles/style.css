@@ -100,6 +100,7 @@ body{
 .main-body-text{
     border-style: solid;
     border-color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 .work-experience-main-body{
     margin:60px;
