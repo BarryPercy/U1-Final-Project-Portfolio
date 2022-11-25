@@ -151,7 +151,7 @@ body{
 }
 .linkedin{
     position: absolute;
-    right:100px;
+    left:60px;
     bottom:150px;
     margin:auto;
     width:500px;
@@ -216,7 +216,7 @@ body{
 .job{
     border-style: solid;
     border-color:white;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     width:1500px;
 }
 .imperva-icon{
